@@ -6,7 +6,123 @@
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+    <header class="main-header">
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li><a href="#">информация</a></li>
+            <li><a href="#">фото и видео</a></li>
+            <li><a href="#">карта штата</a></li>
+            <li><a href="#">гостиницы</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="truiangle">
+      <img src="img/triangle.png." alt="синий треугольник">
+    </div>
+
+    <main class="container">
+      <div class="index-logo">
+        <img src="img/index-logo.png" alt="Добро пожаловать в Седону!">
+      </div><!-- index-logo -->
+
+      <div class="subtitle">
+        <b>седона - небольшой городок в аризоне, заслуживающий большего!</b>
+        <p>рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+      </div><!-- subtitle -->
+
+      <section class="features">
+        <div class="features-item">
+          <b>настоящий городок<b>
+          <p>№1</p>
+          <p>седона - не аттракцион для туристов, там течет своя жизнь</p>
+        </div><!-- features-item -->
+        <div class="features-image">
+          <img src="img/features-image1.png" alt="первое изображение">
+        </div><!-- features-image -->
+      </section>
+
+      <section class="adventages">
+        <div class="adventages-item">
+          <b>жилье</b>
+          <p>рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+        </div>
+        <div class="adventages-item">
+          <b>еда</b>
+          <p>всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+        </div>
+        <div class="adventages-item">
+          <b>сувениры</b>
+          <p>не только китайского, но и местного производства!</p>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="features-image">
+          <img src="img/features-image2.png" alt="второе изображение">
+        </div><!-- features-image -->
+        <div class="features-item">
+          <b>там есть мост дьявола</b>
+          <p>№2</p>
+          <p>да, по нему можно пройти! если конечно вы осмелитесь</p>
+        </div><!-- features-item -->
+      </section>
+
+      <section class="features">
+        <div class="features-item">
+          <b>небольшая площадь</b>
+          <p>№3</p>
+          <p>все достопремичательности находяться очень близко!</p>
+        </div>
+        <div class="features-item">
+          <b>красивая дорога</b>
+          <p>№4</p>
+          <p>ехать в седону из лас-вегаса совсем не скучно!</p>
+        </div>
+        <div class="features-item">
+          <b>мало туристов</b>
+          <p>№5</p>
+          <p>большинство едет в гранд каньон и толпится там</p>
+        </div>
+      </section>
+
+      <div class="subtitle">
+        <b>заинтересовались?</b>
+        <p>укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в седоне!</p>
+      </div>
+
+      <div class="subtitle">
+        <b>поиск гостиницы в седоне</b>
+      </div>
+
+      <form class="appointment-form" action="" method="post">
+        <label>дата заезда<input type="text" name="date1" value="24 апреля 2016" placeholder=""></label>
+        <label>дата выезда<input type="text" name="date2" value="4 июля 2016" placeholder=""></label>
+        <label>взрослые<button>-</button><input type="text" name="adults" value="2" placeholder=""><button>+</button></label>
+        <label>дети<button>-</button><input type="text" name="children" value="0" placeholder=""><button>+</button></label>
+        <input type="submit" value="найти">
+      </form>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-hashtag">
+          <b>#visitsedona</b>
+        </section>
+        <section class="footer-socials">
+          <a class="social-btn social-btn-tw" href="#">твиттер</a>
+          <a class="social-btn social-btn-fb" href="#">фейсбук</a>
+          <a class="social-btn social-btn-yt" href="#">ютуб</a>
+        </section>
+        <section class="footer-copyright">
+          <a class="btn" href="https://htmlacademy.ru">
+            <img src="coryright" alt="HTML academy"
+          </a>
+        </section>
+      </div>
+    </footer>
 
   </body>
 </html>
