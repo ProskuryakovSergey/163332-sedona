@@ -20,8 +20,8 @@
       </div>
     </header>
 
-    <section class="checkbox">
-      <div class="checkbox1">
+    <section class="aside">
+      <div class="aside-item">
         <h2>инфраструктура:</h2>
         <input type="checkbox" name="pool" id="pool-field" checked>
         <label for="pool-field">бассейн</label>
@@ -30,7 +30,7 @@
         <input type="checkbox" name="wifi" id="wifi-field">
         <label for="wifi-field">wi-fi</label>
       </div>
-      <div class="checkbox2">
+      <div class="aside-item">
         <h2>тип жилья:</h2>
         <input type="checkbox" name="hotel" id="hotel-field" checked>
         <label for="hotel-field">гостиница</label>
@@ -56,8 +56,8 @@
         <h2>найдено:3</h2>
       </div>
       <div class="sorting-items">
+        <span>сортировка:</span>
         <ul>
-          <li><h3>сортировка:</h3></li>
           <li><a href="#">по цене</a></li>
           <li><a href="#">по типу</a></li>
           <li><a href="#">по рейтингу</a></li>
@@ -65,8 +65,8 @@
       </div>
       <div class="arrows">
         <ul>
-          <li><i>up</i></li>
-          <li><i>down</i></li>
+          <li><a href="#"><i>up</i></a></li>
+          <li><a href="#"><i>down</i></a></li>
         </ul>
       </div>
     </section>
@@ -74,15 +74,15 @@
     <section class="hotels">
       <article class="hotel">
         <div class="foto">
-          <img src="img/amara.png" alt="amara resort & spa">
+          <img src="img/amara.png" alt="amara resort &amp; spa">
         </div>
-        <div class="">
-          <h2>amara resort & spa</h2>
-          <div class="">
+        <div class="hotel-name">
+          <h2>amara resort &amp; spa</h2>
+          <div class="hotel-item">
             <span>гостиница</span>
             <a class="btn" href="#">подробнее</a>
           </div>
-          <div class="">
+          <div class="hotel-item">
             <span>от 3500 р.</span>
             <a class="btn" href="#">забронировать</a>
           </div>
@@ -105,13 +105,26 @@
         <div class="foto">
           <img src="img/desert.png" alt="desert quail inn">
         </div>
-        <h2>desert quail inn</h2>
-        <span>мотель</span>
-        <a class="btn" href="#">подробнее</a>
-        <span>от 2000 р.</span>
-        <a class="btn" href="#">забронировать</a>
+        <div class="hotel-name">
+          <h2>desert quail inn</h2>
+          <div class="hotel-item">
+            <span>мотель</span>
+            <a class="btn" href="#">подробнее</a>
+          </div>
+          <div class="hotel-item">
+            <span>от 2000 р.</span>
+            <a class="btn" href="#">забронировать</a>
+          </div>
+        </div>
         <div class="rating">
           <div class="stars">
+            <ul>
+              <li>star</li>
+              <li>star</li>
+              <li>star</li>
+              <li>star</li>
+              <li>star</li>
+            </ul>
           </div>
           <span>рейтинг:8,9</span>
         </div>
@@ -121,13 +134,26 @@
         <div class="foto">
           <img src="img/villas.png" alt="villas at poco diablo">
         </div>
-        <h2>villas at poco diablo</h2>
-        <span>апартаменты</span>
-        <a class="btn" href="#">подробнее</a>
-        <span>от 4000 р.</span>
-        <a class="btn" href="#">забронировать</a>
+        <div class="hotel-name">
+          <h2>villas at poco diablo</h2>
+          <div class="hotel-item">
+            <span>апартаменты</span>
+            <a class="btn" href="#">подробнее</a>
+          </div>
+          <div class="hotel-item">
+            <span>от 4000 р.</span>
+            <a class="btn" href="#">забронировать</a>
+          </div>
+        </div>
         <div class="rating">
           <div class="stars">
+            <ul>
+              <li>star</li>
+              <li>star</li>
+              <li>star</li>
+              <li>star</li>
+              <li>star</li>
+            </ul>
           </div>
           <span>рейтинг:9,2</span>
         </div>
@@ -136,7 +162,7 @@
 
     <footer class="main-footer">
       <div class="footer-hashtag">
-        <a href="#"><h2>#visitsedona</h2></a>
+        <a href="#">#visitsedona</a>
       </div>
       <div class="footer-socials">
         <ul>
@@ -146,8 +172,8 @@
         </ul>
       </div>
       <div class="footer-copyright">
-        <span>website by</span>
         <a class="btn" href="https://htmlacademy.ru">
+          <span>website by</span>
           <img src="coryright" alt="HTML academy"
         </a>
       </div>
